@@ -1,0 +1,57 @@
+/* Add your CSS here to style the photography portfolio*/
+
+/* Go here to get fonts: https://fonts.google.com/*/
+/* Select a font, and copy it's @import statement. Paste at the top of this file.*/
+
+/* Flexbox cheat sheet: https://flexbox.malven.co/*/
+ @import url('https://fonts.googleapis.com/css2?family=BJCree:wght@400;500;600;700&family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+Ol+Chiki:wght@400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BJCree:wght@400;500;600;700&family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Noto+Sans+Ol+Chiki:wght@400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+h1 {
+    font-family: "Bebas Neue";
+    text-align: center;
+    font-size: 5em;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-family: 'BJCree';
+    text-align: center;
+    margin-top: 0;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Bebas Neue";
+    height: 100px;
+    align-items: center;
+    border-bottom: 2px dashed pink;
+    border-top: 2px dashed pink;
+}
+
+nav a {
+    text-decoration: none;
+    color: purple;
+    font-size: 2em
+}
+
+nav a:hover {
+    font-weight: bolder;
+    color: darkolivegreen;
+}
+
+img {
+    max-width: 200px;
+}
+
+#img-container {
+    display:flex;
+    margin-top: 15px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 1500px;
+    gap: 15px;
+    align-content: center;
+}

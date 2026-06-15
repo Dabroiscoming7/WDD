@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        h1 {
+            color: rgb(0, 72, 0);
+            text-align: center;
+            font-size: 69px;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            background-color: rgb(0, 238, 255);
+            padding: 50px;
+            font-weight:200;
+            margin-top: 0;
+        }
+        
+        body {
+            background-color: rgb(255, 255, 255);
+            margin: 0;
+        }
+
+        h2 {
+            color: purple;
+        }
+
+        ul {
+            margin: 200px;
+            padding: 0;
+        }
+        .card {
+            box-shadow: 10px 10px 20px gray;
+            margin-bottom: 50px;
+        }
+        #card-container {
+            display: grid;
+            grid-template-columns: 50%, 50%;
+            grid-template-rows: 1fr 4fr 150px;
+            justify-content: center;
+            justify-items: center;
+        }
+        header {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        /* descendascy selector*/
+
+        nav a {
+            text-decoration: none;
+            color: black;
+            font-size: 28px;
+        }
+
+        nav a:hover {
+            color: blue;
+            font-size: 32px;
+        }
+    </style>
+</head>
+<body>
+    <div id="card-container">
+        <header>
+            <h1>Welcome to my classwork website testing testing!</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Projects</a>
+                <a href="#">Homework</a>
+                <a href="#">Contact</a>
+                <a href="#">About Me</a>
+            </nav>
+        </header>
+
+
+        <div class ="card">
+            <h2 class="ICE-heading">In class Exercises!</h2>
+            <ul>
+                <li>
+                    <a class="red-text" href="ICE/basics.html">HTML Basics</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2 class="red-text">White Water Rafting</h2>
+
+            <div class="card">
+                <h2 class="red-text">Site Plan</h2>
+                <ul>
+                    <li>
+                        <a class="red-text" href="site-plan-rafting.html">Index</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+ 
+</body>
+</html>
